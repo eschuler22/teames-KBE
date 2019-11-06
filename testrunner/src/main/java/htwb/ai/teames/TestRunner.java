@@ -11,13 +11,13 @@ public class TestRunner {
 
     public static void main(String[] args) {
 
-        System.getProperties().forEach((k,v) -> System.out.println(k.toString()+":" + v.toString()));
+//        System.getProperties().forEach((k,v) -> System.out.println(k.toString()+":" + v.toString()));
         
-        if(args == null || args.length == 0) {
-            System.out.println("Usage: java htwb.ai.teames.TestRunner className");
+        if(args == null || args.length <= 1) {
+            System.out.println("Usage: java -c htwb.ai.teames.TestRunner className");
             System.exit(1);
         }
-        String className = args[0];
+        String className = args[1];
 
         if (className == null || className.isEmpty()) {
             System.out.println("ClassName is null or empty");
