@@ -14,9 +14,10 @@ public class TestRunner {
 //        System.getProperties().forEach((k,v) -> System.out.println(k.toString()+":" + v.toString()));
         
         if(args == null || args.length <= 1) {
-            System.out.println("Usage: java -c htwb.ai.teames.TestRunner className");
+            System.out.println("Usage: java htwb.ai.teames.TestRunner -c className");
             System.exit(1);
         }
+        
         String className = args[1];
 
         if (className == null || className.isEmpty()) {
@@ -24,9 +25,6 @@ public class TestRunner {
             System.exit(1);
         }
 
-        
-        
-        
         Class<?> clazzToRun = null;
 
         try {
@@ -64,12 +62,10 @@ public class TestRunner {
 
     static Object loadClass(Class<?> clazz) throws InstantiationException, IllegalAccessException,
             IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
-
         return clazz.getDeclaredConstructor().newInstance();
     }
 
     static List<Method> findAllMethodsWithMyTest(Class<?> classToExplore) {
-
         Method[] allMethods = classToExplore.getDeclaredMethods();
         List<Method> methodsToRun = new ArrayList<Method>();
 
