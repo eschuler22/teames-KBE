@@ -45,5 +45,4 @@ public class GitVersionServletTest {
             e.printStackTrace();
         }
     }
-
 }
