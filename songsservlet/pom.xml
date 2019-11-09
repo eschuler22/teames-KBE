@@ -4,7 +4,8 @@
 	                    http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>htwb.ai.teames</groupId>
+	<!-- ACHTUNG: 'TEAMNAME' muss von Ihnen angepasst werden -->
+	<groupId>htwb.ai.TEAMNAME</groupId>
 	<artifactId>songsservlet</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -15,7 +16,7 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
+			<version>4.0.1</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -54,7 +55,8 @@
         </dependency>
 	</dependencies>
 	<build>
-		<finalName>songsservlet-teames</finalName>
+	    <!-- ACHTUNG: 'TEAMNAME' muss von Ihnen angepasst werden -->
+		<finalName>songsservlet-TEAMNAME</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
