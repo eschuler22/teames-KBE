@@ -1,6 +1,9 @@
-KBE WiSe2019/20
+KBE SoSe2020
 
-Team: teames
+Teamname: TEAMNAME
 
-Elena Schüler
+Mitglied:
+Matrikelnummer:
 
+Mitglied:
+Matrikelnummer:
