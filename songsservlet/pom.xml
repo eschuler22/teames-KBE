@@ -49,10 +49,8 @@
         </dependency>
 	</dependencies>
 	<build>
-	    <!-- ACHTUNG: 'TEAMNAME' muss von Ihnen angepasst werden -->
 		<finalName>songsservlet-TEAMNAME</finalName>
 		<plugins>
-			
 		</plugins>
 	</build>
 </project>

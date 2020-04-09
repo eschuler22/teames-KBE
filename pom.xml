@@ -6,6 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
 	<!-- parent pom -->
+    <!-- TEAMNAME in allen poms, Verzeichnisse, .java-Files anpassen -->
     <groupId>htwb.ai.TEAMNAME</groupId>
     <artifactId>modules</artifactId>
     <packaging>pom</packaging>

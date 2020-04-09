@@ -10,7 +10,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>htwb.ai.TEAMNAME</groupId>
 	<artifactId>songsWS</artifactId>
-	<name>JAX-RS Songs Web Service</name>
+	<name>A Songs Web Service</name>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<url>http://maven.apache.org</url>
