@@ -68,7 +68,7 @@ ODER
 
 
 Alle Projekte cleanen, bauen, testen & verpacken:
-	> mvn clean package ()
+	> mvn clean package
 
 
 
